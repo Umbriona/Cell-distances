@@ -15,4 +15,5 @@ Strings are encoded using the char data type as a building bloch for differnet c
 
 In the Ascii lookup table the digits are asigned number 48 - 56 and the signs + and - bot have number 43 and 45 respectively. Given the fixed format that we are given in the textfile we could read line by line. Each line would be split up in the five characters read for each coordinate. The first character we would subtract 48 and then chast as a short in and multiplied with 10000 and aded to our short int variable. The next chars would all go through the same process but be multiplied with 1000, 100, 10 and 1 respectively. lastly we need to flip the last bit in our short int variable if the first char was -. 
 
-## Memory management
+## Memory management 
+
